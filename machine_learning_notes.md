@@ -17,3 +17,14 @@
 * Recall
 * Precision
 * F1-Score
+
+## Notes For Deep Learning
+
+### What is [Tensor](https://zhuanlan.zhihu.com/p/48982978)? 
+
+### Artificial Neural Networks [Complete Guide](https://missinglink.ai/guides/neural-network-concepts/complete-guide-artificial-neural-networks/)
+
+### 
+
+> Question: How do Activation functions, Backpropagation and Advanced architectures connect and become to the DNN?
+> Answer:
