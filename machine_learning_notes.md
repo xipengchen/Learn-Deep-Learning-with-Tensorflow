@@ -1,4 +1,4 @@
-## Notes For Machine Learning
+## :ledger: Notes For Machine Learning
 
 ### 1. What is Machine Learning?
 * Machine learning is a method of data analysis that automates analytical model building.
@@ -18,7 +18,7 @@
 * Precision
 * F1-Score
 
-## Notes For Deep Learning
+## :ledger: Notes For Deep Learning
 
 ### What is [Tensor](https://zhuanlan.zhihu.com/p/48982978)? 
 
