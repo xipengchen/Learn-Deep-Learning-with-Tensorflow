@@ -28,6 +28,6 @@
 
 ### :question:Confusions Clarified
 * :one: [Why use gradient descent instead of using derivative?](https://stats.stackexchange.com/questions/212619/why-is-gradient-descent-required)
-
+* :two: [Why divide by 2𝑚 on Cost Function](https://math.stackexchange.com/questions/884887/why-divide-by-2m)
 > Question: How do Activation functions, Backpropagation and Advanced architectures connect and become to the DNN?
 > Answer:
