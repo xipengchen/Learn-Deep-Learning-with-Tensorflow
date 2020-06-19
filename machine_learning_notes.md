@@ -24,9 +24,10 @@
 
 ### Artificial Neural Networks [Complete Guide](https://missinglink.ai/guides/neural-network-concepts/complete-guide-artificial-neural-networks/)
 
-### 
+### [Backpropagation](http://neuralnetworksanddeeplearning.com/chap2.html) Explanation
+
+### :question:Confusions Clarified
+* :one: [Why use gradient descent instead of using derivative?](https://stats.stackexchange.com/questions/212619/why-is-gradient-descent-required)
 
 > Question: How do Activation functions, Backpropagation and Advanced architectures connect and become to the DNN?
 > Answer:
-### :question:Confusions Clarified
-* :one: [Why use gradient descent instead of using derivative?](https://stats.stackexchange.com/questions/212619/why-is-gradient-descent-required)
