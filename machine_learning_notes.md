@@ -28,3 +28,5 @@
 
 > Question: How do Activation functions, Backpropagation and Advanced architectures connect and become to the DNN?
 > Answer:
+### :question:Confusions Clarified
+* :one: [Why use gradient descent instead of using derivative?](https://stats.stackexchange.com/questions/212619/why-is-gradient-descent-required)
