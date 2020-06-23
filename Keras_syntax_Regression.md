@@ -1,4 +1,6 @@
 # Keras Syntax Basics With Regression Model
+> *Created on: June 22, 2020*<br/>
+> *Written by: Xp Chen*<br/>
 * This note contains Keras Syntax to processing data and conduct EDA wit raw data
 * Keras Regression Model to Housing price (data sourse from Kaggle Database -- [King County, WA](https://www.kaggle.com/harlfoxem/housesalesprediction))
 
