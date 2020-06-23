@@ -9,4 +9,4 @@ Learn to use Python for Deep Learning with Google's latest Tensorflow 2 library 
 
 ## :three: Keras Syntax
 
-### [Keras Regression]()
+* <h3><a href="url">Keras Regression</a></h3>
