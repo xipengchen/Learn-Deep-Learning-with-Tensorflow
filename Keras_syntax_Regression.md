@@ -1,6 +1,8 @@
-# Keras Syntax Basics
+# Keras Syntax Basics With Regression Model
+* This note contains Keras Syntax to processing data and conduct EDA wit raw data
+* Keras Regression Model to Housing price (data sourse from Kaggle Database -- [King County, WA](https://www.kaggle.com/harlfoxem/housesalesprediction))
 
-With TensorFlow 2.0 , Keras is now the main API choice. Let's work through a simple regression project to understand the basics of the Keras syntax and adding layers.
+* With TensorFlow 2.0 , Keras is now the main API choice. Let's work through a simple regression project to understand the basics of the Keras syntax and adding layers.
 
 ## 1. The Data
 
@@ -229,4 +231,59 @@ These should hopefully be fairly close to each other.
 ```python
 model.metrics_names
 
+training_score = model.evaluate(X_train,y_train,verbose=0)
+test_score = model.evaluate(X_test,y_test,verbose=0)
+
+# Make Prediction
+predictions = model.predict(X_test)
+# get some evaluation values
+mean_absolute_error(y_test,predictions)
+np.sqrt(mean_squared_error(y_test,predictions))
+explained_variance_score(y_test,predictions)
+
+# Our predictions
+plt.scatter(y_test,predictions)
+
+# Perfect predictions
+plt.plot(y_test,y_test,'r')
+
+# Get difference between test data and prediction data
+errors = y_test.values.reshape(6480, 1) - predictions
+sns.distplot(errors)
+
+# for test label data and predictions
+# We can concat each column together and get the difference
+# or error and then plot the error
+
 ```
+
+## 5. Predicting on brand new data
+
+What if we just saw a brand new gemstone from the ground? What should we price it at? This is the **exact** same procedure as predicting on a new test data!
+```python
+# [[Feature1, Feature2]]
+new_gem = [[998,1000]]
+
+# Don't forget to scale!
+scaler.transform(new_gem)
+model.predict(new_gem)
+
+###########################################################################
+# Using dataframe last row
+single_house = df.drop('price',axis=1).iloc[0]
+single_house
+single_house = scaler.transform(single_house.values.reshape(-1, 19))
+model.predict(single_house)
+
+```
+## 6. Saving and Loading a Model
+
+```python
+from tensorflow.keras.models import load_model
+model.save('my_model.h5')  # creates a HDF5 file 'my_model.h5'
+
+# Load Model
+later_model = load_model('my_model.h5')
+later_model.predict(new_gem)
+```
+
