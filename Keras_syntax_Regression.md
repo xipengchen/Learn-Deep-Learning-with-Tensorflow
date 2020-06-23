@@ -17,7 +17,7 @@ df.head()
 ```
 
 ### 1.2 Exploratory Data Analysis
-#### 1.2.1 Exploratory Data Analysis
+#### 1.2.1 Exploratory Data Analysis (for housing price related to each house feature)
 ```python
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -44,7 +44,7 @@ sns.scatterplot(x='price',y='sqft_living',data=df)
 sns.boxplot(x='bedrooms',y='price',data=df)
 ```
 
-#### 1.2.1 Geographical Properties
+#### 1.2.1 Geographical Properties (for housing location)
 ```python
 plt.figure(figsize=(12,8))
 sns.scatterplot(x='price',y='long',data=df)
