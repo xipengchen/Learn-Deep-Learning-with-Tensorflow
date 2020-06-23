@@ -9,5 +9,4 @@ Learn to use Python for Deep Learning with Google's latest Tensorflow 2 library 
 
 ## :three: Keras Syntax
 
-* [Keras Regression](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/Keras_syntax_Regression.md)
 * <h3><a href= 'https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/Keras_syntax_Regression.md'>Keras Regression</a></h3>
