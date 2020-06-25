@@ -122,6 +122,7 @@ model.fit(x=X_train,
 model_loss = pd.DataFrame(model.history.history)
 model_loss.plot()
 ```
+> <img src="https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/indicated_image/overfitting_example.png" alt="Overfitting example" width="400" height="300">
 
 ### 3.2 Example Two: Early Stopping
 
@@ -145,6 +146,8 @@ model.fit(x=X_train,
 model_loss = pd.DataFrame(model.history.history)
 model_loss.plot()
 ```
+> <img src="https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/indicated_image/early_stopping.png" alt="Overfitting example" width="400" height="300">
+
 ### 3.3 Example Three: Adding in DropOut Layers
 
 ```python
@@ -172,6 +175,7 @@ model_loss = pd.DataFrame(model.history.history)
 model_loss.plot()
 
 ```
+> <img src="https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/indicated_image/early_stopping_and_dropout.png" alt="Overfitting example" width="400" height="300">
 
 ## 4. Model Evaluation
 
