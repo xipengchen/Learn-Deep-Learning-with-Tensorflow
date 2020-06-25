@@ -1,5 +1,5 @@
 # Keras Classification
-> *Created on: June 22, 2020*<br/>
+> *Created on: June 25, 2020*<br/>
 > *Written by: Xp Chen*<br/>
 
 Let's explore a classification task with Keras API for TF 2.0
