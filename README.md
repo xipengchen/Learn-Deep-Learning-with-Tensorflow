@@ -10,7 +10,7 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 - **10 minutes to [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)**
 - **Matplotlib & [Seaborn](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/Seaborn-Basics.ipynb)**
 
-## :three: Tensorflow with Keras 
+## :three: Kerase ANNs
 
 * <h3><a href= 'https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/Keras_syntax_Regression.md'>Keras Syntax with Regression Model</a></h3>
 * <h3><a href= 'https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/Keras_syntax_Regression.md'>Keras Classification Model</a></h3>
