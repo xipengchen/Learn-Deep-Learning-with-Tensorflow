@@ -14,6 +14,9 @@ Let's pretend this data are measurements of some rare gem stones, with 2 measure
 
 ### 1.1 Load the Data
 ```python
+import pandas as pd
+import numpy as np
+
 df = pd.read_csv('../DATA/fake_reg.csv')
 df.head()
 ```
