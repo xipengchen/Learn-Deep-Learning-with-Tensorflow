@@ -170,7 +170,7 @@ model.add(Dense(1))
 
 model.compile(optimizer='adam',loss='mse')
 ```
-### 2.5 Choosing an optimizer and loss
+### 2.5 Choosing an [optimizer](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers) and loss
 
 Keep in mind what kind of problem you are trying to solve:
 ```python
