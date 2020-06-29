@@ -1,7 +1,7 @@
 # Learn Deep Learning with Tensorflow
 
 Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 library and Keras -- *Click the [Course Link](https://www.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp/) for more!*
-> *Created on: June 16th, 2020*<br/>
+> *Created on: June 16, 2020*<br/>
 > *Written by: Xp Chen*<br/>
 ## :one: Get Started to Learn Deep Learning
 - [What is Machine Learning](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/machine_learning_notes.md)
