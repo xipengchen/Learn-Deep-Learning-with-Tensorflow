@@ -3,7 +3,11 @@
 Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 library and Keras -- *Click the [Course Link](https://www.udemy.com/course/complete-tensorflow-2-and-keras-deep-learning-bootcamp/) for more!*
 > *Created on: June 16th, 2020*<br/>
 > *Written by: Xp Chen*<br/>
-## :one: [What is Machine Learning](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/machine_learning_notes.md)
+## :one: Get Started to Learn Deep Learning
+- [What is Machine Learning](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/machine_learning_notes.md)
+- [A Comprehensive Guide to Convolutional Neural Networks (CNNs)](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
+- [Guide to Natural Language Processing (NLP)](https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1)
+- [Introduction to recommender systems](https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada)
 
 ## :two: Basic Essential Skillset Needed As Shown Below
 - **[Numpy](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/NumPy-Quick-Catch-Up.ipynb) Basic to Catch Up**
