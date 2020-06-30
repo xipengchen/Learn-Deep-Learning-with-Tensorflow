@@ -22,7 +22,7 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 ## :four: Convolutional Neural Networks (CNNs) With Keras
 
 * <h3><a href= 'https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/Keras_CNNs.md'>Notes of Convolutional Neural Networks</a></h3>
-* <h3><a href= 'https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/'>Keras Conv2D and Convolutional Layers </a></h3>
+<h4><a href= 'https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/'>Keras Conv2D and Convolutional Layers </a></h4>
 
 <h3><a href= ''> </a></h3>
 <h3><a href= ''> </a></h3>
