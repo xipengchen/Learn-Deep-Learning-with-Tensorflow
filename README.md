@@ -8,7 +8,7 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 - [A Comprehensive Guide to Convolutional Neural Networks (CNNs)](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 - [Guide to Natural Language Processing (NLP)](https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1)
 - [Introduction to recommender systems](https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada)
-
+- [Activation Functions in Neural Networks](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
 ## :two: Basic Essential Skillset Needed As Shown Below
 - **[Numpy](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/NumPy-Quick-Catch-Up.ipynb) Basic to Catch Up**
 - **10 minutes to [Pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)**
