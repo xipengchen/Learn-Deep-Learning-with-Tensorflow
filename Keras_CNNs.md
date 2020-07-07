@@ -16,4 +16,8 @@ Let's explore CNNs with Keras API for TF 2.0
 ![](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/indicated_image/hyperparameter.png)
 ![](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/indicated_image/hyperparameter%202.png)
 
+## :question: What is ImageDataGenerator() ? :question:
+   ImageDataGenerator is [Image Augmentation](https://machinelearningmastery.com/image-augmentation-deep-learning-keras/) for Deep Learning With Keras 
+
+
 <img src="" alt="" width="400" height="200">
