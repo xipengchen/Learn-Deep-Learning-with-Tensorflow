@@ -3,7 +3,7 @@
 > *Created on: July 10, 2020*<br/>
 > *Written by: Xp Chen*<br/>
 
-## Resources to Understand RNNs better:
+## :one: Resources to Understand RNNs better:
 ### Warm-up:
 * Paperspace Blog — [Recurrent Neural Networks](https://blog.paperspace.com/recurrent-neural-networks-part-1-2/)
 * WILD ML — [Introduction to RNNs](http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/)
