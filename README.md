@@ -33,5 +33,5 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 <h3><a href= ''> </a></h3>
 
 ## :five: Recurrent Neural Networks (RNNs) With Keras
-<h3><a href= 'https://towardsdatascience.com/recurrent-neural-networks-by-example-in-python-ffd204f99470'> Recurrent Neural Networks by Example in Python</a></h3>
+* <h3><a href= 'https://towardsdatascience.com/recurrent-neural-networks-by-example-in-python-ffd204f99470'> Recurrent Neural Networks by Example in Python</a></h3>
 
