@@ -26,3 +26,4 @@ import matplotlib.pyplot as plt
 # Show the images
 plt.imshow(x_train[0])
 ```
+### 2. PreProcessing Data
