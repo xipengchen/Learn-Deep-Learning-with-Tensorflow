@@ -2,6 +2,8 @@
 > *Created on: July 05, 2020*<br/>
 > *Written by: Xp Chen*<br/>
 
+Real Example Notebook to Use [CNNs for Deep Learning on Custom Images-Malaria]()
+
 ## 1. The Data (MNIST Digit Numbers) & (CIFAR-10 Multiple Classes)
 
 ```python
