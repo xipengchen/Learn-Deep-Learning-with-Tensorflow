@@ -52,7 +52,7 @@ y_cat_test = to_categorical(y_test,10)
 ### 2.2 Reshaping the Data
  CNN need to add one more dimension to show we're dealing with 1 RGB channel (since technically the images are in black and white, only showing values from 0-255 on a single channel), an color image would have 3 dimensions.
 ```python
-x_train.shape # output = (6000,28,28)
+x_train.shape # output = (60000,28,28)
 
 # Reshape to include channel dimension (in this case, 1 channel)
 x_train = x_train.reshape(60000, 28, 28, 1)
