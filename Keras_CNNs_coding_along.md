@@ -135,4 +135,14 @@ sns.heatmap(confusion_matrix(y_test,predictions),annot=True)
 # https://github.com/matplotlib/matplotlib/issues/14751
 
 ```
+## 6. Predicting a given image
 
+```python
+my_image = x_test[16]
+plt.imshow(my_image)
+
+# SHAPE --> (num_images,width,height,color_channels)
+model.predict_classes(my_image.reshape(1,32,32,3))
+
+
+```
