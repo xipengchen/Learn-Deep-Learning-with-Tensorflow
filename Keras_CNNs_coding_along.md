@@ -99,3 +99,40 @@ model.compile(loss='categorical_crossentropy',
 # Summary
 model.summary()
 ```
+
+## 4. Training the model
+```python
+from tensorflow.keras.callbacks import EarlyStopping
+early_stop = EarlyStopping(monitor='val_loss',patience=23
+
+model.fit(x_train,y_cat_train,epochs=15,validation_data=(x_test,y_cat_test),callbacks=[early_stop])
+
+```
+
+
+## 5. Model Evaluation
+
+```python
+model.metrics_names
+
+losses = pd.DataFrame(model.history.history)
+losses.head()
+
+losses[['accuracy','val_accuracy']].plot()
+losses[['loss','val_loss']].plot()
+
+print(model.metrics_names)
+print(model.evaluate(x_test,y_cat_test,verbose=0))
+
+from sklearn.metrics import classification_report,confusion_matrix
+
+predictions = model.predict_classes(x_test)
+confusion_matrix(y_test,predictions)
+
+import seaborn as sns
+plt.figure(figsize=(10,6))
+sns.heatmap(confusion_matrix(y_test,predictions),annot=True)
+# https://github.com/matplotlib/matplotlib/issues/14751
+
+```
+
