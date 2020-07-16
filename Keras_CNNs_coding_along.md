@@ -59,3 +59,43 @@ x_train = x_train.reshape(60000, 28, 28, 1)
 x_test = x_test.reshape(10000,28,28,1)
 
 ```
+
+## 3. Building the Model
+
+```python
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Conv2D, MaxPool2D, Flatten
+
+
+model = Sequential()
+
+## FIRST SET OF LAYERS
+
+# CONVOLUTIONAL LAYER
+model.add(Conv2D(filters=32, kernel_size=(4,4),input_shape=(32, 32, 3), activation='relu',))
+# POOLING LAYER
+model.add(MaxPool2D(pool_size=(2, 2)))
+
+## SECOND SET OF LAYERS
+
+# CONVOLUTIONAL LAYER
+model.add(Conv2D(filters=32, kernel_size=(4,4),input_shape=(32, 32, 3), activation='relu',))
+# POOLING LAYER
+model.add(MaxPool2D(pool_size=(2, 2)))
+
+# FLATTEN IMAGES FROM 28 by 28 to 764 BEFORE FINAL LAYER
+model.add(Flatten())
+
+# 256 NEURONS IN DENSE HIDDEN LAYER (YOU CAN CHANGE THIS NUMBER OF NEURONS)
+model.add(Dense(256, activation='relu'))
+
+# LAST LAYER IS THE CLASSIFIER, THUS 10 POSSIBLE CLASSES
+model.add(Dense(10, activation='softmax'))
+
+
+model.compile(loss='categorical_crossentropy',
+              optimizer='rmsprop',
+              metrics=['accuracy'])  # we can add in additional metrics https://keras.io/metrics/
+# Summary
+model.summary()
+```
