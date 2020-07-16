@@ -28,4 +28,34 @@ import matplotlib.pyplot as plt
 # Show the images
 plt.imshow(x_train[0])
 ```
-### 2. PreProcessing Data
+## 2. PreProcessing Data
+### 2.1 PreProcessing Labels (y)
+We first need to make sure the labels will be understandable by our CNN.
+```python
+# Check labels
+y_train[0]
+
+# If labels are literally categories of numbers, need to  translate this to be "one hot encoded" so that CNN can understand, otherwise it will think this is some sort of regression problem on a continuous axis.
+# Luckily , Keras has an easy to use function for this:
+from tensorflow.keras.utils import to_categorical
+y_train.shape
+y_example = to_categorical(y_train)
+y_example.shape
+
+
+y_cat_train = to_categorical(y_train,10) # 10 means 10 categories for labels
+y_cat_test = to_categorical(y_test,10)
+
+
+```
+
+### 2.2 Reshaping the Data
+ CNN need to add one more dimension to show we're dealing with 1 RGB channel (since technically the images are in black and white, only showing values from 0-255 on a single channel), an color image would have 3 dimensions.
+```python
+x_train.shape # output = (6000,28,28)
+
+# Reshape to include channel dimension (in this case, 1 channel)
+x_train = x_train.reshape(60000, 28, 28, 1)
+x_test = x_test.reshape(10000,28,28,1)
+
+```
