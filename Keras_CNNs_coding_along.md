@@ -2,7 +2,7 @@
 > *Created on: July 05, 2020*<br/>
 > *Written by: Xp Chen*<br/>
 
-Real Example Notebook to Use [CNNs for Deep Learning on Custom Images-Malaria](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/03-Deep-Learning-Custom-Images-Malaria.ipynb)
+:red_circle: Real Example Notebook to Use [CNNs for Deep Learning on Custom Images-Malaria](https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/03-Deep-Learning-Custom-Images-Malaria.ipynb)
 
 ## 1. The Data (MNIST Digit Numbers) & (CIFAR-10 Multiple Classes)
 
