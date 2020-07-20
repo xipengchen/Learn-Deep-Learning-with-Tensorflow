@@ -36,4 +36,4 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 * <h3><a href= 'https://towardsdatascience.com/recurrent-neural-networks-by-example-in-python-ffd204f99470'> Recurrent Neural Networks by Example in Python</a></h3>
 
 ## :six:  Natural Language Processing (NLP)
-* <h3><a href= ''>How Natural Language Processing is Used</a></h3>
+* <h3><a href= 'https://www.wonderflow.co/blog/natural-language-processing-examples'>How Natural Language Processing is Used</a></h3>
