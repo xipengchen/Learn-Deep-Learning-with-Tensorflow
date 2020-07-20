@@ -37,3 +37,5 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 
 ## :six:  Natural Language Processing (NLP) With Keras
 * <h3><a href= 'https://www.wonderflow.co/blog/natural-language-processing-examples'>How Natural Language Processing is Used</a></h3>
+* <h3><a href= ''>A list of beginner-friendly NLP projects—using pre-trained models </a></h3>
+
