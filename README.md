@@ -26,11 +26,7 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 * <h3><a href= 'https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/'>Keras Conv2D and Convolutional Layers </a></h3>
 * <h3><a href= 'https://github.com/xipengchen/Learn-Deep-Learning-with-Tensorflow/blob/master/Keras_CNNs_coding_along.md'> Keras CNNs Coding Along :red_circle: </a></h3> 
 <h3><a href= ''> </a></h3>
-<h3><a href= ''> </a></h3>
-<h3><a href= ''> </a></h3>
-<h3><a href= ''> </a></h3>
-<h3><a href= ''> </a></h3>
-<h3><a href= ''> </a></h3>
+
 
 ## :five: Recurrent Neural Networks (RNNs) With Keras
 * <h3><a href= 'https://towardsdatascience.com/recurrent-neural-networks-by-example-in-python-ffd204f99470'> Recurrent Neural Networks by Example in Python</a></h3>
@@ -40,5 +36,11 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 <h4><a href= 'https://towardsdatascience.com/a-list-of-beginner-friendly-nlp-projects-using-pre-trained-models-dc4768b4bec0'>A list of beginner-friendly NLP projects—using pre-trained models </a></h4>
 
 ## :seven:  Generative Adversarial Networks (GANs) With Keras
-<h3><a href= 'https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29'> Understanding Generative Adversarial Networks</a></h3>
+* <h3><a href= 'https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29'> Understanding Generative Adversarial Networks</a></h3>
+* <h3><a href= ''> Generative Adversarial Networks </a> Paper, 2014</h3>
 
+<h3><a href= ''> </a></h3>
+<h3><a href= ''> </a></h3>
+<h3><a href= ''> </a></h3>
+<h3><a href= ''> </a></h3>
+<h3><a href= ''> </a></h3>
