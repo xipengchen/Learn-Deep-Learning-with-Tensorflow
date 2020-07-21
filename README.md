@@ -40,4 +40,5 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 <h4><a href= 'https://towardsdatascience.com/a-list-of-beginner-friendly-nlp-projects-using-pre-trained-models-dc4768b4bec0'>A list of beginner-friendly NLP projects—using pre-trained models </a></h4>
 
 ## :seven:  Generative Adversarial Networks (GANs) With Keras
-https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29
+<h3><a href= 'https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29'> Understanding Generative Adversarial Networks</a></h3>
+
