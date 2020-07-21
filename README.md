@@ -37,8 +37,8 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 
 ## :seven:  Generative Adversarial Networks (GANs) With Keras
 * <h3><a href= 'https://towardsdatascience.com/understanding-generative-adversarial-networks-gans-cd6e4651a29'> Understanding Generative Adversarial Networks</a></h3>
-   - [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
-   - [A Gentle Intro of GANs](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/)
+   1. [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)
+   2. [A Gentle Intro of GANs](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/)
 <h3><a href= ''> </a></h3>
 <h3><a href= ''> </a></h3>
 <h3><a href= ''> </a></h3>
