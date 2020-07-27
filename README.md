@@ -45,3 +45,7 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 <h3><a href= ''> </a></h3>
 <h3><a href= ''> </a></h3>
 <h3><a href= ''> </a></h3>
+
+## :eight:  AutoEncoder With Keras
+
+## :nine:  Deployment the model With Keras
