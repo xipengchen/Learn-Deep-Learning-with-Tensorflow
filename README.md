@@ -51,4 +51,5 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 ## :nine:  Deployment the model With Keras
 * Using Flask Framework
 * Using Postman API
-* 
+* Herokuapp 
+* Github
