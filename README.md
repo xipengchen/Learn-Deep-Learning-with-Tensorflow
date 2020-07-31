@@ -49,3 +49,6 @@ Learn how to use Python for Deep Learning with Google's latest Tensorflow 2 libr
 ## :eight:  AutoEncoder With Keras
 
 ## :nine:  Deployment the model With Keras
+* Using Flask Framework
+* Using Postman API
+* 
